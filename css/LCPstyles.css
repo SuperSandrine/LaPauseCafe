@@ -1,0 +1,237 @@
+@charset "UTF-8";
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 22vw;
+  line-height: 17vw;
+  font-family: Shadows Into Light, cursive;
+}
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 32vw;
+    line-height: 24vw;
+  }
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: Alegreya, serif;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: Alegreya, serif;
+}
+
+p {
+  font-size: 1rem;
+  font-family: Prompt, Roboto, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #122F2B;
+}
+
+nav {
+  font-size: 1.5rem;
+  font-family: Prompt, Roboto, sans-serif;
+  text-transform: uppercase;
+}
+
+header {
+  position: fixed;
+  top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1em;
+  width: 100vw;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header nav a {
+  padding: 1em;
+  color: #F3EADA;
+}
+@media screen and (max-width: 991px) {
+  header nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  header img {
+    width: 50px;
+  }
+}
+header .menu__burger {
+  display: none;
+}
+header .menu__burger i {
+  font-size: 2rem;
+  padding: 0.2em;
+  color: #F3EADA;
+}
+@media screen and (max-width: 991px) {
+  header .menu__burger {
+    display: flex;
+    align-items: center;
+  }
+}
+
+footer {
+  background-color: #F3EADA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.3rem 1.3rem;
+}
+footer p {
+  color: #1A0E0B;
+}
+footer p a {
+  text-decoration: underline;
+  color: #1A0E0B;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+.dropdown_title::after {
+  content: " ▼";
+  font-size: 1.2rem;
+  padding-left: 0.2rem;
+}
+
+.dropdownContent {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 3.2rem;
+  right: 1.5rem;
+  background-color: #C4A998;
+  min-width: fit-content;
+  border-radius: 5px;
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.6);
+}
+.dropdownContent a {
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #1A0E0B;
+}
+.dropdownContent a:hover {
+  background-color: #EED4BF;
+  border-radius: 5px;
+}
+
+.home__background {
+  background-image: url("../img/nicolas-j-leclercq-ryqTx6AHznQ-unsplash.jpg");
+  background-color: #A1B5B3;
+  background-repeat: no-repeat;
+  background-size: 119vw;
+  background-origin: border-box;
+  min-height: 120vh;
+}
+@media screen and (max-width: 991px) {
+  .home__background {
+    background-position: 31% 0%;
+    background-size: 275vw;
+  }
+}
+
+#home {
+  position: relative;
+}
+#home h1 {
+  color: #F3EADA;
+  width: 95.5vw;
+  position: absolute;
+  top: 38vh;
+  left: 4.5vw;
+}
+@media screen and (max-width: 991px) {
+  #home h1 {
+    top: 17vh;
+    text-align: center;
+  }
+}
+
+#presentation, #a-propos {
+  background-color: #A1B5B3;
+  color: #1A0E0B;
+  padding: 40px 70px;
+}
+#presentation article, #a-propos article {
+  padding: 40px 70px;
+  max-width: 50%;
+}
+@media screen and (max-width: 991px) {
+  #presentation, #a-propos {
+    padding: 30px 10px;
+  }
+  #presentation article, #a-propos article {
+    padding: 30px 20px;
+    max-width: unset;
+  }
+}
+
+#presentation {
+  margin-top: -2px;
+}
+
+/*# sourceMappingURL=LCPstyles.css.map */

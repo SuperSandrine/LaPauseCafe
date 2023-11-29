@@ -1,0 +1,20 @@
+//à améliorer: continuer la mise en page en fonction de la maquette
+#presentation, #a-propos {
+  background-color: $colour-tintprimary;
+  color: $colour-darksecondary;
+  padding: 40px 70px;
+  article{ 
+    padding: 40px 70px;
+    max-width: 50%;
+  }
+  @include tablet-and-smaller {
+    padding: 30px 10px;
+    article{ 
+      padding: 30px 20px;
+      max-width: unset;
+    }
+  }
+}
+#presentation{
+  margin-top: - 2px;
+}

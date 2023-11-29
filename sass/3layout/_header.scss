@@ -1,0 +1,38 @@
+header {
+  position: fixed;
+  top: 10px;
+  display: flex;
+  justify-content:space-between;
+  padding: 0 1em;
+  width: 100vw;
+
+  nav {
+    display: flex;
+    align-items: center;
+    a {
+      padding: 1em;
+      color: $colour-secondary;
+    }
+    @include tablet-and-smaller {
+      display: none;
+    }
+  }
+  img{
+    @include tablet-and-smaller{
+    width: 50px;
+    }
+  }
+  .menu__burger{
+    display: none;
+    i{
+      font-size: 2rem;
+      padding: 0.2em;
+      color: $colour-secondary;
+    }
+    @include tablet-and-smaller {
+      display: flex;
+      align-items: center;
+
+    }
+  }
+}

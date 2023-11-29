@@ -1,0 +1,14 @@
+footer{
+  background-color: $colour-secondary;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.3rem 1.3rem;
+  p{
+    color: $colour-darksecondary;
+    a{
+      text-decoration: underline;
+      color: $colour-darksecondary;
+    }
+  }
+}

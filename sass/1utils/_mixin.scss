@@ -1,0 +1,20 @@
+//768
+@mixin mobile{
+  @media screen and (max-width:map-get($breakpoints, tablet)){
+    @content;
+  }
+}
+
+//991
+@mixin tablet-and-smaller{
+  @media screen and (max-width: 991px){
+    @content;
+  }
+}
+
+//992
+@mixin desktop-and-bigger{
+  @media screen and (min-width:(map-get($breakpoints, desktop))) {
+    @content;  
+  }
+}

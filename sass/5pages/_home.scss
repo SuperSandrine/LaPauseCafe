@@ -1,0 +1,28 @@
+.home__background {
+  background-image: url("../img/nicolas-j-leclercq-ryqTx6AHznQ-unsplash.jpg");
+  background-color: $colour-tintprimary;
+  background-repeat:no-repeat;
+  background-size : 119vw;
+  background-origin: border-box;
+  min-height:  120vh;
+
+  @include tablet-and-smaller {
+    background-position: 31% 0%;
+    background-size: 275vw;;
+  }
+}
+
+#home {
+  position: relative;
+  h1{
+    color: $colour-secondary;
+    width: calc(100vw - 4.5vw);
+    position: absolute;
+    top: 38vh;
+    left: 4.5vw;
+    @include tablet-and-smaller {
+      top: 17vh;
+      text-align: center;
+    }
+  }
+}       
