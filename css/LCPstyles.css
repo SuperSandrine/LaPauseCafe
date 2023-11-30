@@ -95,6 +95,7 @@ header {
   justify-content: space-between;
   padding: 0 1em;
   width: 100vw;
+  z-index: 5;
 }
 header nav {
   display: flex;
@@ -198,6 +199,7 @@ footer p a {
   position: relative;
 }
 #home h1 {
+  z-index: 0;
   color: #F3EADA;
   width: 95.5vw;
   position: absolute;
