@@ -15,6 +15,7 @@
 #home {
   position: relative;
   h1{
+    z-index: 0;
     color: $colour-secondary;
     width: calc(100vw - 4.5vw);
     position: absolute;
