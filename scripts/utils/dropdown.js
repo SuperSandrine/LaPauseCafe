@@ -16,7 +16,6 @@ dropdown.addEventListener('mouseover', () => {
 // dropdown pour la version mobile
 // à améliorer: rajouter fermeture au click hors zone dropdown
 // à améliorer: rajouter fermeture au click sur le choix
-// à améliorer: problème de disposition entre titre H1 et dropdown ouverte
 burgerDropdown.addEventListener('click', () => {
   if (burgerDropdownContent.style.display === 'flex'){
     burgerDropdownContent.style.display = 'none'
