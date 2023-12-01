@@ -141,7 +141,6 @@ If the navigator window did not open, your can use the link provide in your term
 
 Enjoy ! -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 ## Author
 
