@@ -89,58 +89,59 @@ LaPauseCafe/
 |-README.md
 ``````
 
-# <p align="right">(<a href="#readme-top">back to top</a>)</p>
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# ## Getting start
+<!--
+ ## Getting start
 
-# This repo contains all the front-end and back-end code to run the BankArgent web app. 
-# I'll provide the step by step to get start in an apple environment case.
+This repo contains all the front-end and back-end code to run the BankArgent web app. 
+I'll provide the step by step to get start in an apple environment case.
+-->
+<!--
+### Prerequisites
+
+- ![Node][NodeBadge]
+- ![Npm][NpmBadge]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
+
+#### Let's Go:
+**1.** Fork the repository
+**2.** Clone it on your computer
+```sh
+git clone https://github.com/SuperSandrine/Project-14-HRNet.git
+```-->
+
+<!-- **3.** then you can get in the HRNet-Front-end
+```sh
+ cd HRNet-Front-end
+```
+
+**4.** Install the dependencies with :
+```sh
+ npm install
+```
+
+**5.** Run the front
+```sh
+npm run dev
+``` -->
+
+<!-- Wait for a second and you should see:
+
+```console
+VITE v4.1.3 ready in 289 ms
+➜ Local: http://127.0.0.1:5173/
+➜ Network: use --host to expose
+➜ press h to show help
+```
+
+If the navigator window did not open, your can use the link provide in your terminal at 'local', which is your local port.
 
 
-# ### Prerequisites
+Enjoy ! -->
 
-# - ![Node][NodeBadge]
-# - ![Npm][NpmBadge]
-
-# <p align="right">(<a href="#readme-top">back to top</a>)</p> 
-
-# #### Let's Go:
-# **1.** Fork the repository
-# **2.** Clone it on your computer
-# ```sh
-# git clone https://github.com/SuperSandrine/Project-14-HRNet.git
-# ```
-
-# **3.** then you can get in the HRNet-Front-end
-# ```sh
-#  cd HRNet-Front-end
-# ```
-
-# **4.** Install the dependencies with :
-# ```sh
-#  npm install
-# ```
-
-# **5.** Run the front
-# ```sh
-# npm run dev
-# ```
-
-# Wait for a second and you should see:
-
-# ```console
-# VITE v4.1.3 ready in 289 ms
-# ➜ Local: http://127.0.0.1:5173/
-# ➜ Network: use --host to expose
-# ➜ press h to show help
-# ```
-
-# If the navigator window did not open, your can use the link provide in your terminal at 'local', which is your local port.
-
-
-# Enjoy !
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 ## Author
 
