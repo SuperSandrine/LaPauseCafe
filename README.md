@@ -39,7 +39,7 @@
 La pause cafe is a website that could propose a break on line.
 
 #### Conception
-From design to first figma prototype, you'll find a moodboard, a style guide with component, mobile and desktop prototype [on my figma project](https://www.figma.com/file/XBtMyUnBl4o5c4qyLeSh3J/La-pause-caf%C3%A9?type=design&node-id=0-1&mode=design&t=ewXRhmttM1chEyHx-0), and the project [on progress here](https://supersandrine.github.io/LaPauseCafe/) or [on vercel](https://la-pause-cafe.vercel.app) 
+From design to first figma prototype, you'll find a moodboard, a style guide with components, mobile and desktop prototype [on my figma project](https://www.figma.com/file/XBtMyUnBl4o5c4qyLeSh3J/La-pause-caf%C3%A9?type=design&node-id=0-1&mode=design&t=ewXRhmttM1chEyHx-0), and the project [on progress here](https://supersandrine.github.io/LaPauseCafe/) or [on vercel](https://la-pause-cafe.vercel.app) 
 #### First checks
 HTML validator, wcag check list are checks that has been done on the projet.
 
